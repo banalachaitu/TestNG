@@ -1,0 +1,397 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results retried="3" ignored="0" total="11" passed="7" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-01-09T15:19:39 IST" name="raybiztech master suite" finished-at="2023-01-09T15:20:27 IST" duration-ms="47967">
+    <groups>
+    </groups>
+    <test started-at="2023-01-09T15:19:39 IST" name="ArtificialIntelligence validation" finished-at="2023-01-09T15:19:56 IST" duration-ms="16729">
+      <class name="com.qa.raybiztech.tests.ArtificialIntelligencePageTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.qa.raybiztech.tests.ArtificialIntelligencePageTest@7b94089b]" started-at="2023-01-09T15:19:39 IST" name="setUp" finished-at="2023-01-09T15:19:51 IST" duration-ms="11273" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="aipSetup()[pri:0, instance:com.qa.raybiztech.tests.ArtificialIntelligencePageTest@7b94089b]" started-at="2023-01-09T15:19:51 IST" name="aipSetup" finished-at="2023-01-09T15:19:54 IST" duration-ms="3322" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aipSetup -->
+        <test-method signature="ArtificialIntelligencePageTitleValidation()[pri:0, instance:com.qa.raybiztech.tests.ArtificialIntelligencePageTest@7b94089b]" started-at="2023-01-09T15:19:54 IST" name="ArtificialIntelligencePageTitleValidation" finished-at="2023-01-09T15:19:54 IST" duration-ms="19" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ArtificialIntelligencePageTitleValidation -->
+        <test-method signature="artificialIntelligenceHeader()[pri:0, instance:com.qa.raybiztech.tests.ArtificialIntelligencePageTest@7b94089b]" started-at="2023-01-09T15:19:54 IST" name="artificialIntelligenceHeader" finished-at="2023-01-09T15:19:55 IST" duration-ms="1012" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- artificialIntelligenceHeader -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.raybiztech.tests.ArtificialIntelligencePageTest@7b94089b]" started-at="2023-01-09T15:19:56 IST" name="tearDown" finished-at="2023-01-09T15:19:56 IST" duration-ms="252" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.qa.raybiztech.tests.ArtificialIntelligencePageTest -->
+    </test> <!-- ArtificialIntelligence validation -->
+    <test started-at="2023-01-09T15:19:39 IST" name="Homepage validation" finished-at="2023-01-09T15:20:14 IST" duration-ms="34906">
+      <class name="com.qa.raybiztech.tests.HomePageTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.qa.raybiztech.tests.HomePageTest@1608bcbd]" started-at="2023-01-09T15:19:39 IST" name="setUp" finished-at="2023-01-09T15:19:51 IST" duration-ms="11205" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method retried="true" signature="homePageTitleValidation()[pri:0, instance:com.qa.raybiztech.tests.HomePageTest@1608bcbd]" started-at="2023-01-09T15:19:51 IST" name="homePageTitleValidation" finished-at="2023-01-09T15:19:56 IST" duration-ms="5184" status="SKIP">
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[Expected condition failed: waiting for title to be "A, Dynamics 365 ERP & CRM, Kentico, Sitecore, Dell Boomi-RBT". Current title: "AI, Dynamics 365 ERP & CRM, Kentico, Sitecore, Dell Boomi-RBT" (tried for 5 second(s) with 500 milliseconds interval)
+Build info: version: '4.1.1', revision: 'e8fcc2cecf'
+System info: host: 'LAPTOP-8J3R7791', ip: '192.168.3.53', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.5'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.125, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\Users\mprag\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:56239}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:56239/devtoo..., se:cdpVersion: 108.0.5359.125, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 30c6be6f00c46e1cbf21d36b5d8dc8b6]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for title to be "A, Dynamics 365 ERP & CRM, Kentico, Sitecore, Dell Boomi-RBT". Current title: "AI, Dynamics 365 ERP & CRM, Kentico, Sitecore, Dell Boomi-RBT" (tried for 5 second(s) with 500 milliseconds interval)
+Build info: version: '4.1.1', revision: 'e8fcc2cecf'
+System info: host: 'LAPTOP-8J3R7791', ip: '192.168.3.53', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.5'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.125, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\Users\mprag\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:56239}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:56239/devtoo..., se:cdpVersion: 108.0.5359.125, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 30c6be6f00c46e1cbf21d36b5d8dc8b6
+at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:138)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:231)
+at com.qa.raybiztech.utils.ElementUtil.waitForPageActTitle(ElementUtil.java:332)
+at com.qa.raybiztech.utils.ElementUtil.doGetPageTitleIs(ElementUtil.java:343)
+at com.qa.raybiztech.pages.HomePage.getHomePageTitle(HomePage.java:36)
+at com.qa.raybiztech.tests.HomePageTest.homePageTitleValidation(HomePageTest.java:17)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:418)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- homePageTitleValidation -->
+        <test-method retried="true" signature="homePageTitleValidation()[pri:0, instance:com.qa.raybiztech.tests.HomePageTest@1608bcbd]" started-at="2023-01-09T15:19:56 IST" name="homePageTitleValidation" finished-at="2023-01-09T15:20:02 IST" duration-ms="5513" status="SKIP">
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[Expected condition failed: waiting for title to be "A, Dynamics 365 ERP & CRM, Kentico, Sitecore, Dell Boomi-RBT". Current title: "AI, Dynamics 365 ERP & CRM, Kentico, Sitecore, Dell Boomi-RBT" (tried for 5 second(s) with 500 milliseconds interval)
+Build info: version: '4.1.1', revision: 'e8fcc2cecf'
+System info: host: 'LAPTOP-8J3R7791', ip: '192.168.3.53', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.5'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.125, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\Users\mprag\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:56239}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:56239/devtoo..., se:cdpVersion: 108.0.5359.125, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 30c6be6f00c46e1cbf21d36b5d8dc8b6]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for title to be "A, Dynamics 365 ERP & CRM, Kentico, Sitecore, Dell Boomi-RBT". Current title: "AI, Dynamics 365 ERP & CRM, Kentico, Sitecore, Dell Boomi-RBT" (tried for 5 second(s) with 500 milliseconds interval)
+Build info: version: '4.1.1', revision: 'e8fcc2cecf'
+System info: host: 'LAPTOP-8J3R7791', ip: '192.168.3.53', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.5'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.125, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\Users\mprag\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:56239}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:56239/devtoo..., se:cdpVersion: 108.0.5359.125, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 30c6be6f00c46e1cbf21d36b5d8dc8b6
+at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:138)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:231)
+at com.qa.raybiztech.utils.ElementUtil.waitForPageActTitle(ElementUtil.java:332)
+at com.qa.raybiztech.utils.ElementUtil.doGetPageTitleIs(ElementUtil.java:343)
+at com.qa.raybiztech.pages.HomePage.getHomePageTitle(HomePage.java:36)
+at com.qa.raybiztech.tests.HomePageTest.homePageTitleValidation(HomePageTest.java:17)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.retryFailed(TestInvoker.java:213)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:58)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:418)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- homePageTitleValidation -->
+        <test-method retried="true" signature="homePageTitleValidation()[pri:0, instance:com.qa.raybiztech.tests.HomePageTest@1608bcbd]" started-at="2023-01-09T15:20:02 IST" name="homePageTitleValidation" finished-at="2023-01-09T15:20:07 IST" duration-ms="5132" status="SKIP">
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[Expected condition failed: waiting for title to be "A, Dynamics 365 ERP & CRM, Kentico, Sitecore, Dell Boomi-RBT". Current title: "AI, Dynamics 365 ERP & CRM, Kentico, Sitecore, Dell Boomi-RBT" (tried for 5 second(s) with 500 milliseconds interval)
+Build info: version: '4.1.1', revision: 'e8fcc2cecf'
+System info: host: 'LAPTOP-8J3R7791', ip: '192.168.3.53', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.5'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.125, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\Users\mprag\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:56239}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:56239/devtoo..., se:cdpVersion: 108.0.5359.125, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 30c6be6f00c46e1cbf21d36b5d8dc8b6]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for title to be "A, Dynamics 365 ERP & CRM, Kentico, Sitecore, Dell Boomi-RBT". Current title: "AI, Dynamics 365 ERP & CRM, Kentico, Sitecore, Dell Boomi-RBT" (tried for 5 second(s) with 500 milliseconds interval)
+Build info: version: '4.1.1', revision: 'e8fcc2cecf'
+System info: host: 'LAPTOP-8J3R7791', ip: '192.168.3.53', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.5'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.125, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\Users\mprag\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:56239}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:56239/devtoo..., se:cdpVersion: 108.0.5359.125, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 30c6be6f00c46e1cbf21d36b5d8dc8b6
+at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:138)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:231)
+at com.qa.raybiztech.utils.ElementUtil.waitForPageActTitle(ElementUtil.java:332)
+at com.qa.raybiztech.utils.ElementUtil.doGetPageTitleIs(ElementUtil.java:343)
+at com.qa.raybiztech.pages.HomePage.getHomePageTitle(HomePage.java:36)
+at com.qa.raybiztech.tests.HomePageTest.homePageTitleValidation(HomePageTest.java:17)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.retryFailed(TestInvoker.java:213)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:58)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:418)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- homePageTitleValidation -->
+        <test-method signature="homePageTitleValidation()[pri:0, instance:com.qa.raybiztech.tests.HomePageTest@1608bcbd]" started-at="2023-01-09T15:20:07 IST" name="homePageTitleValidation" finished-at="2023-01-09T15:20:12 IST" duration-ms="5084" status="FAIL">
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[Expected condition failed: waiting for title to be "A, Dynamics 365 ERP & CRM, Kentico, Sitecore, Dell Boomi-RBT". Current title: "AI, Dynamics 365 ERP & CRM, Kentico, Sitecore, Dell Boomi-RBT" (tried for 5 second(s) with 500 milliseconds interval)
+Build info: version: '4.1.1', revision: 'e8fcc2cecf'
+System info: host: 'LAPTOP-8J3R7791', ip: '192.168.3.53', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.5'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.125, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\Users\mprag\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:56239}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:56239/devtoo..., se:cdpVersion: 108.0.5359.125, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 30c6be6f00c46e1cbf21d36b5d8dc8b6]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for title to be "A, Dynamics 365 ERP & CRM, Kentico, Sitecore, Dell Boomi-RBT". Current title: "AI, Dynamics 365 ERP & CRM, Kentico, Sitecore, Dell Boomi-RBT" (tried for 5 second(s) with 500 milliseconds interval)
+Build info: version: '4.1.1', revision: 'e8fcc2cecf'
+System info: host: 'LAPTOP-8J3R7791', ip: '192.168.3.53', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.5'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.125, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\Users\mprag\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:56239}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:56239/devtoo..., se:cdpVersion: 108.0.5359.125, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 30c6be6f00c46e1cbf21d36b5d8dc8b6
+at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:138)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:231)
+at com.qa.raybiztech.utils.ElementUtil.waitForPageActTitle(ElementUtil.java:332)
+at com.qa.raybiztech.utils.ElementUtil.doGetPageTitleIs(ElementUtil.java:343)
+at com.qa.raybiztech.pages.HomePage.getHomePageTitle(HomePage.java:36)
+at com.qa.raybiztech.tests.HomePageTest.homePageTitleValidation(HomePageTest.java:17)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.retryFailed(TestInvoker.java:213)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:58)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:418)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- homePageTitleValidation -->
+        <test-method signature="rbtLogoValidation()[pri:0, instance:com.qa.raybiztech.tests.HomePageTest@1608bcbd]" started-at="2023-01-09T15:20:13 IST" name="rbtLogoValidation" finished-at="2023-01-09T15:20:14 IST" duration-ms="960" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- rbtLogoValidation -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.raybiztech.tests.HomePageTest@1608bcbd]" started-at="2023-01-09T15:20:14 IST" name="tearDown" finished-at="2023-01-09T15:20:14 IST" duration-ms="212" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.qa.raybiztech.tests.HomePageTest -->
+    </test> <!-- Homepage validation -->
+    <test started-at="2023-01-09T15:19:39 IST" name="Contact validation" finished-at="2023-01-09T15:20:27 IST" duration-ms="47967">
+      <class name="com.qa.raybiztech.tests.ContactPageTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.qa.raybiztech.tests.ContactPageTest@79179359]" started-at="2023-01-09T15:19:39 IST" name="setUp" finished-at="2023-01-09T15:19:51 IST" duration-ms="11292" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="contactSetup()[pri:0, instance:com.qa.raybiztech.tests.ContactPageTest@79179359]" started-at="2023-01-09T15:19:51 IST" name="contactSetup" finished-at="2023-01-09T15:19:55 IST" duration-ms="4119" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- contactSetup -->
+        <test-method signature="contactRegisterReset(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.qa.raybiztech.tests.ContactPageTest@79179359]" started-at="2023-01-09T15:19:56 IST" name="contactRegisterReset" data-provider="getContactRegisterData" finished-at="2023-01-09T15:20:04 IST" duration-ms="8389" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Amarendra Pani]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[9.898565623E9]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[India]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Testing]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[reset]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- contactRegisterReset -->
+        <test-method signature="contactRegisterReset(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.qa.raybiztech.tests.ContactPageTest@79179359]" started-at="2023-01-09T15:20:04 IST" name="contactRegisterReset" data-provider="getContactRegisterData" finished-at="2023-01-09T15:20:12 IST" duration-ms="7470" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Srilatha bindu]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1.245782585E9]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[India]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Srilatha Testing21]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[reset]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- contactRegisterReset -->
+        <test-method signature="contactRegisterReset(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.qa.raybiztech.tests.ContactPageTest@79179359]" started-at="2023-01-09T15:20:12 IST" name="contactRegisterReset" data-provider="getContactRegisterData" finished-at="2023-01-09T15:20:19 IST" duration-ms="7429" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Haritha Juthuru]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[3.265982536E9]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[India]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Haritha Testing31]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[reset]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- contactRegisterReset -->
+        <test-method signature="contactRegisterReset(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.qa.raybiztech.tests.ContactPageTest@79179359]" started-at="2023-01-09T15:20:19 IST" name="contactRegisterReset" data-provider="getContactRegisterData" finished-at="2023-01-09T15:20:27 IST" duration-ms="7429" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Mamatha Thunum]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[4.532657814E9]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[India]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Mamatha Testing21]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[reset]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- contactRegisterReset -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.raybiztech.tests.ContactPageTest@79179359]" started-at="2023-01-09T15:20:27 IST" name="tearDown" finished-at="2023-01-09T15:20:27 IST" duration-ms="178" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.qa.raybiztech.tests.ContactPageTest -->
+    </test> <!-- Contact validation -->
+  </suite> <!-- raybiztech master suite -->
+</testng-results>
