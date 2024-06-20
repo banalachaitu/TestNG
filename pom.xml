@@ -78,6 +78,13 @@
 			<artifactId>extentreports</artifactId>
 			<version>${extentreports-version}</version>
 		</dependency>
+
+	  <dependency>
+        <groupId>org.testng</groupId>
+        <artifactId>testng</artifactId>
+        <version>7.4.0</version>
+        <scope>test</scope>
+    </dependency>
 		
 	<!-- https://mvnrepository.com/artifact/com.aventstack/extentreports-testng-adapter -->
 <dependency>
