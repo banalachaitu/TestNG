@@ -24,7 +24,6 @@ public class ExtentReportListener extends DriverFactory implements ITestListener
 
     private static ExtentReports extent = init();
     public static ThreadLocal<ExtentTest> test = new ThreadLocal<ExtentTest>();
-    private static ExtentReports extentReports;
 
     private static ExtentReports init() {
 
@@ -37,7 +36,7 @@ public class ExtentReportListener extends DriverFactory implements ITestListener
             }
         }
         
-        extentReports = new ExtentReports();
+        ExtentReports extentReports = new ExtentReports();
         ExtentSparkReporter reporter = new ExtentSparkReporter(OUTPUT_FOLDER + FILE_NAME);
         reporter.config().setReportName("Automation Test Results");
         extentReports.attachReporter(reporter);
