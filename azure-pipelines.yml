@@ -9,10 +9,21 @@ steps:
   inputs:
     mavenPomFile: 'pom.xml'
     goals: 'clean install'
-    options: '--batch-mode'
-  displayName: 'Build with Maven'
+    options: '-Dmaven.test.failure.ignore=true'
+
+- task: CopyFiles@2
+  inputs:
+    contents: '**/target/surefire-reports/**/*'
+    targetFolder: '$(Build.ArtifactStagingDirectory)'
 
 - task: PublishTestResults@2
   inputs:
-    testResultsFiles: '**/target/surefire-reports/TEST-*.xml'
-  displayName: 'Publish Test Results'
+    testResultsFiles: '**/target/surefire-reports/*.xml'
+    testResultsFormat: 'JUnit'
+    failTaskOnFailedTests: true
+
+- task: PublishBuildArtifacts@1
+  inputs:
+    PathtoPublish: '$(Build.ArtifactStagingDirectory)'
+    ArtifactName: 'test-results'
+    publishLocation: 'Container'
